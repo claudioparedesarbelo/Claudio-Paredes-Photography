@@ -1,15 +1,16 @@
 .main__header__nav {
     background-color: black;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
     align-items: center;
-    img {
+    &__img {
     width: 400px;
     padding: 30px 60px 30px 40px;
     }
     &__list {
     display: flex;
-    padding-right: 60px;
+    justify-content: center;
     color: white;
     list-style: none;
     &__button {
@@ -31,4 +32,12 @@
             transition: none;
           }
     }
+    &__logo { 
+       
+      img{
+      width: 150px;
+     
+      
     }
+    }
+  }

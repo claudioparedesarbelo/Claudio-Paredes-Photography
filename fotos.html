@@ -10,15 +10,36 @@
 </head>
 <body>
 <header>
-    <nav class="main__header__nav">
-        <a href="./index.html"><img src="./img/logo.png" alt="Logo Empresa" class="main__header__nav__img"></a>
-        <ul class="main__header__nav__list">
-        <a href="./index.html"><button class="main__header__nav__list__button">Home</button></a>
-        <a href="./fotos.html"><button class="main__header__nav__list__button">Fotos</button></a>
-        <a href="./videos.html"><button class="main__header__nav__list__button">Videos</button></a>
-        <a href="./contacto.html"><button class="main__header__nav__list__button">Contacto</button></a>
-    </nav>
+  <nav class="main__header__nav">
+    <a href="./index.html"><img src="./img/logo.png" alt="Logo Empresa" class="main__header__nav__img"></a>
+    <ul class="main__header__nav__list">
+    <a href="./index.html"><button class="main__header__nav__list__button">Home</button></a>
+    <a href="./fotos.html"><button class="main__header__nav__list__button">Fotos</button></a>
+    <a href="./videos.html"><button class="main__header__nav__list__button">Videos</button></a>
+    <a href="./contacto.html"><button class="main__header__nav__list__button">Contacto</button></a>
+    </ul>
+    <a href="./index.html" class="main__header__nav__logo"><img src="./img/pngeggb.png" alt="Logo de la Empresa" > </a>
+</nav>
 </header>
+<main>
+  <div class="full_img" id="fullImgBox">
+      <img src="./img/711A8333.jpg" id="fullImg" alt="London Tower">
+      <span onclick="closeImg()">X</span>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <div class="gallery">
+    <img src="./img/711A8333.jpg" onclick="openFullImg(this.src)" alt="London Tower">
+    <img src="./img/711A8338.jpg" onclick="openFullImg(this.src)" alt="Tamesis River">
+    <img src="./img/711A8356.jpg" onclick="openFullImg(this.src)" alt="Tamesis River">
+    <img src="./img/711A8374.jpg" onclick="openFullImg(this.src)" alt="London Tower">
+    <img src="./img/711A8427.jpg" onclick="openFullImg(this.src)" alt="Eye of London">
+    <img src="./img/711A8500.jpg" onclick="openFullImg(this.src)" alt="Bird of London">
+    <img src="./img/711A8549.jpg" onclick="openFullImg(this.src)" alt="Taxi">
+    <img src="./img/711A8602.jpg" onclick="openFullImg(this.src)" alt="Old car in London">
+  </div>
+</main>
+
     <footer class="footer">
         <a href="./index.html"><img src="./img/logo.png" alt="Logo Empresa" class="footer__logo"></a>
         <div class="footer__list">
@@ -43,5 +64,6 @@
             
             </div>
     </footer>
+    <script src="./script.js"></script>
 </body>
 </html>
