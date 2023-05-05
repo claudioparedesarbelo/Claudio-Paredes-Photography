@@ -9437,3 +9437,14 @@ body {
     .footer__list svg:active {
       fill: #5408aa;
       transition: none; }
+
+.main__videos {
+  padding: 3em;
+  font-family: 'Quicksand', sans-serif; }
+  .main__videos h1, .main__videos .h1 {
+    text-align: center;
+    padding-bottom: 2em; }
+  .main__videos div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px; }

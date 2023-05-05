@@ -20,14 +20,13 @@ body {
     }
     &__info{
         background-color: black;
-         
         h4,
         ul,
         p {
             text-align: center;
             margin: 0 0 1rem 0;
-            list-style: none ;
-            padding: 1em ;
+            list-style: none;
+            padding: 1em;
         }
     }
     &__form {
@@ -61,7 +60,6 @@ body {
             color: #181818;
             text-transform: uppercase;
             padding: 1em;
-            
             
         }
         button:hover,
