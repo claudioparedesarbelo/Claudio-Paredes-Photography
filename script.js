@@ -8,3 +8,4 @@ function openFullImg(reference) {
 function closeImg() {
     fullImgBox.style.display = "none";
 }
+
